@@ -41,7 +41,12 @@ int main() {
         {'.','.','.','4','1','9','.','.','5'},
         {'.','.','.','.','8','.','.','7','9'}
     };
+    bool isValid = sol.isValidSudoku(board);
+    if (isValid) {
+        cout << "Valid" << endl;
+    } 
+    else {
+    cout << "Invalid" << endl;
+    }
 
-    cout << (sol.isValidSudoku(board) ? "Valid" : "Invalid") << endl;
-    return 0;
 }
