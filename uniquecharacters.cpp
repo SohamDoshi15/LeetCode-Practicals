@@ -11,7 +11,7 @@ public:
         }
 
         for (int i = 0; i < s.size(); i++) {
-            if (charcount[s[i]] == 1) {  // Corrected condition
+            if (charcount[s[i]] == 1) {  //Checks that the character is unique
                 return i;
             }
         }
